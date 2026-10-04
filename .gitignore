@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android/Gradle generated files
+.gradle/
+smart-tourist-safety-system/**/android/.gradle/
+smart-tourist-safety-system/**/android/build/
+smart-tourist-safety-system/**/android/app/build/
+
+# Build output
+dist/
+build/
+coverage/
+
+# IDE-specific files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
